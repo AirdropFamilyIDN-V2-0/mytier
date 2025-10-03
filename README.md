@@ -24,8 +24,8 @@
 
 ## INSTAL
 ```bash
-git clone https://github.com/<username>/<repo-kamu>.git
-cd <mytier>
+git clone https://github.com/AirdropFamilyIDN-V2-0/mytier.git
+cd mytier
 ```
 
 # Install module
