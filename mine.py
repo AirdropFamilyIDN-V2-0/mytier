@@ -97,7 +97,7 @@ def save_sessions(d: Dict[str, str]):
     SESS_FILE.write_text(json.dumps(d, indent=2), encoding="utf-8")
 
 def render_table(accs: List[Account]) -> Table:
-    tbl = Table(title="Mytier Auto — By ADFMIDN", show_lines=True)
+    tbl = Table(title="Mytier Auto — By ADFMIDN Team", show_lines=True)
     tbl.add_column("Nickname", style="cyan", no_wrap=True)
     tbl.add_column("Check-in", style="green")
     tbl.add_column("Mining", style="yellow")
